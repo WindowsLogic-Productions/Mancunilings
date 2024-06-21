@@ -1,0 +1,874 @@
+﻿/* WindowsLogic Productions TMHM CSS Sheet Start. */
+/* Copyright © 2015 - 2024 WindowsLogic Productions. All rights reserved.*/
+@font-face {
+    font-family: 'Segoe UI Light';
+	src: url('https://www.windowslogic.co.uk/partials/segoeuisl_0.ttf');
+    src: url("https://www.windowslogic.co.uk/partials/segoeuisl_0.ttf") format('truetype'),
+		 url('https://www.windowslogic.co.uk/partials/segoeuisl_0.ttf')  format('truetype') /* Safari, Android, iOS */;
+}
+
+*{
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Segoe UI, Trebuchet MS, Arial;
+	font-size: 18px;
+	color: #000;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	font-weight: normal;
+}
+
+p{
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Segoe UI, Trebuchet MS, Arial;
+	font-size: 18px;
+}
+
+spanp{
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Segoe UI, Trebuchet MS, Arial;
+	font-size: 18px;
+	width:70%;
+}
+
+h1{
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Segoe UI, Trebuchet MS, Arial;
+	font-size: 42px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2{
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Segoe UI, Trebuchet MS, Arial;
+	font-size: 32px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Segoe UI, Trebuchet MS, Arial;
+	font-size: 26px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+b{
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Segoe UI, Trebuchet MS, Arial;	
+	font-weight: bold;
+}
+
+code{
+	font-family: Consolas;
+	font-size: 18px;
+	color: black;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url(https://cdn.windowslogic.co.uk/important/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0,0,0,0.50);
+	height: 40px;
+	overflow:hidden;
+	border-radius: 0px;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	backdrop-filter: blur(12px);
+	z-index: 99;
+	}
+	#text{
+		width:auto;
+		height:auto;
+		float:left;
+		background-color: transparent;
+		color: #000;
+		margin-left: 20px;
+		margin-top: 1px;
+	}
+.placeholder{
+	background-color: transparent;
+	width: 100%;
+	height: auto;
+	margin:auto;
+	overflow: hidden;
+	}
+#logo{
+		width: 100px;
+		height: 100px;
+		float: left;
+		}
+#nav{
+	width: auto;
+	height: 40px;
+	float: right;
+	background-color: rgba(255,255,255,0.00);
+	}
+main{
+	width: 100%;
+	height: auto;
+	background-color: #868686;
+	overflow: hidden;
+	}
+#box{
+	width: 100%;
+	height: auto;
+	background: rgba(31,144,255,0.00);
+	border-left: 0px solid rgba(0,0,0,0.00);
+	border-right: 0px solid rgba(0,0,0,0.00);
+	border-bottom: 0px solid rgba(0,0,0,0.00);
+	float: left;
+	}
+#imgbox{
+	width: 250px;
+	height: 250px;
+	background-color: transparent;
+	float: left;
+}
+#imgbox2{
+	width: 928px;
+	height: 350px;
+	background-color: transparent;
+	display: block;
+    margin: auto;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centred {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info{
+		width: 100%;
+		height: auto;
+		border-left: 0px solid #0078ff;
+		border-right: 0px solid #0078ff;
+		border-top: 0px solid #0078ff;
+		border-bottom: 0px solid #0078ff;
+		background-color: rgba(0,0,0,0.70);
+		float: left;
+		margin-left:0px;
+		margin-top:0px;
+		margin-bottom:0px;
+		padding-right:10%;
+		padding-left:10%;
+		padding-top:0px;
+		padding-bottom:0px;
+		border-radius: 0px;
+		backdrop-filter: blur(12px);
+}
+.info2{
+		width: 100%;
+		height: auto;
+		border-left: 0px solid #FF0004;
+		border-right: 0px solid #FF0004;
+		border-top: 0px solid #FF0004;
+		border-bottom: 0px solid #FF0004;
+		background-color: rgba(255,204,0,0.70);
+		float: left;
+		margin-bottom:0px;
+		padding-right:10%;
+		padding-left:10%;
+		border-radius: 0px;
+		backdrop-filter: blur(12px);
+}
+.info3{
+		width: 100%;
+		height: auto;
+		border-left: 0px solid #FF0004;
+		border-right: 0px solid #FF0004;
+		border-top: 0px solid #FF0004;
+		border-bottom: 0px solid #FF0004;
+		background-color: rgba(255,255,255,0.50);
+		float: left;
+		margin-bottom:0px;
+		border-radius: 0px;
+		background-image:url(https://cdn.windowslogic.co.uk/important/location.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-blend-mode: lighten;
+}
+.important{
+		width: 950px;
+		height: auto;
+		border-left: 1px solid #FF0004;
+		border-right: 1px solid #FF0004;
+		border-top: 1px solid #FF0004;
+		border-bottom: 1px solid #FF0004;
+		background-color: rgba(178,0,0,0.50);
+		float: left;
+		margin-left:5px;
+		margin-top:6px;
+		margin-bottom:6px;
+		padding-right:5px;
+		padding-left:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-radius: 5px;
+}
+.subinfo{
+		width: 100%;
+		height: auto;
+		border-left: 1px solid #000000;
+		border-right: 1px solid #000000;
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #000000;
+		background-color: rgba(255,255,255,0.50);
+		float: left;
+		margin-left:5px;
+		margin-top:6px;
+		margin-bottom:6px;
+		padding-right:5px;
+		padding-left:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-radius: 5px;
+}
+.contents{
+		width: 200px;
+		height: auto;
+		border-left: 1px solid #000000;
+		border-right: 1px solid #000000;
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #000000;
+		background-color: rgba(255,255,255,0.50);
+		float: left;
+		margin-left:5px;
+		margin-top:6px;
+		margin-bottom:6px;
+		padding-right:5px;
+		padding-left:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-radius: 5px;
+}
+.help{
+		width: 720px;
+		height: auto;
+		border-left: 1px solid #000000;
+		border-right: 1px solid #000000;
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #000000;
+		background-color: rgba(255,255,255,0.50);
+		float: right;
+		margin-right:5px;
+		margin-top:6px;
+		margin-bottom:6px;
+		padding-right:5px;
+		padding-left:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-radius: 5px;
+}
+.titlebanner{
+		width: 100%;
+		height: auto;
+		border-left: 0px solid #0078ff;
+		border-right: 0px solid #0078ff;
+		border-top: 0px solid #0078ff;
+		border-bottom: 0px solid #0078ff;
+		background-color: rgba(0,0,0,0.25);
+		float: left;
+		padding-right:5px;
+		padding-left:5px;
+		padding-top:60px;
+		padding-bottom:30px;
+		border-radius: 0px;
+		text-align: center;
+		backdrop-filter: blur(12px);
+}
+.textbox{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 10px;
+	}
+img{
+		border-image: 0px;
+	}
+header, main, section, nav, footer, aside{
+	display: block;
+}
+.footer{
+	width: 100%;
+	height: auto;
+	float:left;
+	background-color: rgba(255,255,255,0.60);
+	overflow: hidden;
+}
+#footertext{
+	width:100%;
+	height:auto;
+	float: left;
+	padding: 5px;
+	color: #fff;
+	text-align: center;
+	border-left: 0px solid #0078ff;
+	border-right: 0px solid #0078ff;
+	border-top: 0px solid #0078ff;
+	border-bottom: 0px solid #0078ff;
+	background-color: rgba(0,0,0,0.50);
+	border-radius:0px;
+	backdrop-filter: blur(12px);
+}
+#footerend {
+	width:100%;
+	height:auto;
+	float: left;
+	padding: 5px;
+	color: #fff;
+	text-align: right;
+	background-color: rgba(0,0,0,1.00);
+	border-radius:0px;
+}
+a:link{
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Trebuchet MS;
+	color: #fff;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	text-decoration: none;
+}
+a:visited{
+	color: #fff;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+a:hover{
+	color: #fff;
+	text-shadow: 0 0 3px #fff;
+}
+a:active{
+	color: #ff0000;
+}
+#navbar{
+	width: 100%;
+	height: 40px;
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 3em 0;
+}
+#navbar li{
+	float: left;
+}
+#navbar li a{
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Trebuchet MS;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#navbar li a:hover{
+	background-color: rgba(0,192,192,1.00);
+	color: #fff;
+	text-shadow: 0 0 0px #fff;
+}
+#socialicons{
+width: auto;
+height: auto;
+float: center;
+padding: 10px;
+}
+div.gallery {
+    margin: 0 auto;
+    border: 0px solid rgba(255,255,255,0.00);
+    width: 250px;
+	display: inline-block;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+div.gallery:hover {
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 5px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+	border-radius: 5px;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+div.dev {
+    margin: 0 auto;
+    border: 0px solid rgba(255,255,255,0.00);
+    width: 450px;
+	display: inline-block;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+div.dev:hover {
+	background-color: rgba(255,255,255,0.25);
+    border: 0px solid #fff;
+	border-radius: 5px;
+}
+
+div.dev img {
+    width: 450px;
+    height: auto;
+	border-radius: 100%;
+}
+
+div.devdesc {
+    padding: 10px;
+    text-align: center;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.button {
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Trebuchet MS;
+    background-color: #fff;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+	float: right;
+}
+
+.buttoncenter {
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Trebuchet MS;
+    background-color: #fff;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonsubmenu {
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Trebuchet MS;
+    background-color: #fff;
+    border: none;
+    color: white;
+    padding: 0px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px -3px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonsocialmedia {
+	font-family: 'Segoe UI Light', Segoe UI Semilight, Trebuchet MS;
+    background-color: #fff;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0px;
+    margin: 0px 0px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgba(255,255,255,1.00); 
+    color: black;
+border-left: 0px solid rgba(255,255,255,0.20);
+border-right: 0px solid rgba(255,255,255,0.20);
+border-top: 0px solid rgba(255,255,255,0.20); 
+    border-bottom: 0px solid rgba(255,255,255,0.20);
+	border-radius: 3px;
+}
+
+.button2 {
+    background-color: rgba(255,255,255,1.00); 
+    color: black;
+border-left: 1px solid rgba(0,0,0,0.25);
+border-right: 1px solid rgba(0,0,0,0.25);
+border-top: 0px solid rgba(255,255,255,0.20); 
+    border-bottom: 0px solid rgba(255,255,255,0.20);
+	border-radius: 0px;
+}
+
+.buttonsm {
+    background-color: rgba(255,255,255,0.00); 
+    color: white;
+	border-radius: 100%;
+}
+
+.buttonsm:hover {
+    background-color: rgba(0,192,192,1.00);
+    color: black;
+	text-shadow: 0 0 10px #fff;
+}
+
+.button1:hover {
+    background-color: rgba(255,204,0,1.00);
+	border-top:0px solid #fff;
+	border-bottom:0px solid #fff;
+	border-left:0px solid #fff;
+	border-right:0px solid #fff;
+    color: #000;
+	text-shadow: 0 0 0px #fff;
+}
+
+.button2:hover {
+	border-left: 1px solid rgba(0,0,0,0.25);
+border-right: 1px solid rgba(0,0,0,0.25);
+border-top: 0px solid rgba(255,255,255,0.20); 
+    border-bottom: 0px solid rgba(255,255,255,0.20);
+    color: rgba(0,192,192,1.00);
+	text-shadow: 0 0 0px #fff;
+}
+
+.button1on {
+    background-color: rgba(0,0,0,0.00);
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+	border-left:2px solid #fff;
+	border-right:2px solid #fff;
+    color: #fff;
+	text-shadow: 0 0 10px #fff;
+	border-radius: 5px;
+}
+
+.buttonsocial {
+    background-color: rgba(255,255,255,0.00); 
+    color: white; 
+    border-bottom: 2px solid rgba(255,255,255,0.00);
+	border-radius: 10px;
+}
+
+.buttonsocial:hover {
+    background-color: rgba(255,255,255,0.00);
+	border-bottom:2px solid #fff;
+    color: #fff;
+	text-shadow: 0 0 10px #fff;
+}
+
+.infohover {
+	background-color: rgba(0,192,192,1.00);
+	border: 5px solid rgba(0,192,192,1.00);
+	border-radius: 100%;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.infohover:hover {
+	box-shadow: 0 0 10px rgba(0,192,192,1.00);
+}
+
+.infohotspot {
+	position: absolute;
+	background-color: rgba(255,255,255,1.00);
+	border: 2px solid rgba(255,255,255,1.00);
+	border-radius: 100%;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.infohotspot:hover {
+	box-shadow: 0 0 10px rgba(255,255,255,1.00);
+	cursor: pointer;
+}
+
+.infohotspotcontainer {
+	text-align: center;
+	position: relative;
+	color: white;	
+}
+
+.infohotspotimage {
+	border-radius: 3px;
+	width: 50%;
+}
+
+.buttondir {
+	background-color: rgba(0,192,192,1.00);
+	border: 4px solid rgba(0,192,192,1.00);
+	border-radius: 100%;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.buttondir:hover {
+	box-shadow: 0 0 5px rgba(0,192,192,1.00);
+}
+
+.buttona {
+	background-color: rgba(255,0,0,1.00);
+	border: 4px solid rgba(255,0,0,1.00);
+	border-radius: 100%;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.buttona:hover {
+	box-shadow: 0 0 5px rgba(255,0,0,1.00);
+}
+
+.buttonb {
+	background-color: rgba(14,200,0,1.00);
+	border: 4px solid rgba(14,200,0,1.00);
+	border-radius: 100%;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.buttonb:hover {
+	box-shadow: 0 0 5px rgba(14,200,0,1.00);
+}
+
+.buttonc {
+	background-color: rgba(0,180,255,1.00);
+	border: 4px solid rgba(0,180,255,1.00);
+	border-radius: 100%;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.buttonc:hover {
+	box-shadow: 0 0 5px rgba(0,180,255,1.00);
+}
+
+.buttond {
+	background-color: rgba(246,246,0,1.00);
+	border: 4px solid rgba(246,246,0,1.00);
+	border-radius: 100%;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.buttond:hover {
+	box-shadow: 0 0 5px rgba(246,246,0,1.00);
+}
+
+.charactericon {
+	width: 16%;
+	height: auto;
+	filter: grayscale(100%);
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.charactericon:hover {
+	width: 16%;
+	height: auto;
+	filter: grayscale(0%);
+}
+
+.charactericonsmall {
+	width: 10%;
+	height: auto;
+	filter: grayscale(100%);
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.charactericonsmall:hover {
+	width: 10%;
+	height: auto;
+	filter: grayscale(0%);
+}
+	
+.charactericonsmallon {
+	width: 10%;
+	height: auto;
+	filter: grayscale(0%);
+}
+
+button.accordion {
+    background-color: rgba(255,255,255,0.00);
+	border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+	font-size: 16px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	margin-top: 2px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: rgba(255,255,255,0.25);
+	border-radius: 5px 5px 0px 0px;
+}
+
+div.panel {
+	border-radius: 0px 0px 5px 5px;
+    padding: 0 18px;
+    background-color: rgba(255,255,255,0.25);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #fff;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+	border-radius: 5px 5px 0px 0px;
+}
+
+div.tab {
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color: transparent;
+}
+
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+div.tab button:hover {
+    background-color: rgba(255,255,255,0.25);
+	border-radius: 5px;
+}
+
+div.tab button.active {
+    background-color: rgba(255,255,255,0.50);
+	border-radius: 5px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 0px solid #ccc;
+    border-top: none;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.column50 {
+    float: left;
+    width: 50.00%;
+}
+
+.column70 {
+    width: 70.00%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image-transition {
+    width: 250px;
+    border-radius: 100%;
+    transition: all 0.50s;
+}
+
+.image-transition:hover {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.image-transition-dev {
+    width: 90%;
+    transition: all 0.15s;
+	padding-right: 0px;
+}
+
+.image-transition-dev:hover {
+    transform: scale(1.1);
+	transition: all 0.15s
+}
+.image-transition-vid {
+    width: 70%;
+    transition: all 0.15s;
+	padding-right: 0px;
+}
+
+.image-transition-vid:hover {
+    transform: scale(1.1);
+	transition: all 0.15s
+}
+
+#cf {
+  position:absolute;
+  height:auto;
+  width:100%;
+  background-color: transparent;
+  float: left;
+  display: inline-block;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
