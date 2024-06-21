@@ -6,11 +6,11 @@
 		<meta name="keywords" content="the, mancunilings, hive, the mancunilings hive, brony, meet, brony meet, 16+ brony meet, fun, games, friendly">
 		<title>The Mancunilings</title>
 		<link rel="stylesheet" href="css/style.css"/>
-		<link rel="shortcut icon" href="img/simp.png" type="image/x-icon">
+		<link rel="shortcut icon" href="img/pic.png" type="image/x-icon">
 		<meta property="og:title" content="Mancunilings"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="https://mancunilings.org.uk"/>
-		<meta property="og:image" content="img/simp.png">
+		<meta property="og:image" content="img/pic.png">
 		<meta property="og:description" content="The Manchester Brony meet."/>
 		<meta property="og:determiner" content="the"/>
 	</head>
@@ -35,7 +35,7 @@
 <br>
 <h3>Every 4th Saturday
 <h2 id="header">The Manchester Pony Meetup</h2>
-<h3 style='color:black;'>at Moon Under Water (Wetherspoons)</h3>
+<h3 style='color:black;'>at The Moon Under Water (Wetherspoons)</h3>
 <br>
 </center>
 </section>
