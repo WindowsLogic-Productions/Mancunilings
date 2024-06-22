@@ -298,7 +298,7 @@ main{
 	padding: 10px;
 	}
 img{
-		border-image: 0px;
+		border-radius: 5px;
 	}
 header, main, section, nav, footer, aside{
 	display: block;
