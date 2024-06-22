@@ -44,7 +44,7 @@
 <center>
 <h2>A day of friends, fun and games.</h2>
 <p>Mancunilings is the social group for bronies in and around Manchester to meet monthly.</p>
-<a href="characters.php"><button class="buttoncenter button1">Join The Discord Server</button></a>
+<a href="https://discord.gg/JyMwazQFyB"><button class="buttoncenter button1">Join The Discord Server</button></a>
 <br>
 <br>
 </center>
