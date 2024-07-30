@@ -9,7 +9,7 @@
 		<link rel="shortcut icon" href="img/pic.png" type="image/x-icon">
 		<meta property="og:title" content="Mancunilings - Meet Reports"/>
 		<meta property="og:type" content="website"/>
-		<meta property="og:url" content="https://mancunilings.org.uk"/>
+		<meta property="og:url" content="https://mancunilings.org.uk/meet-reports.php"/>
 		<meta property="og:image" content="img/pic.png">
 		<meta property="og:description" content="The Manchester Brony meet."/>
 		<meta property="og:determiner" content="the"/>
@@ -39,10 +39,18 @@
 </center>
 </section>
 
+<section class="info">
+<center>
+<h2 style='color:white;'>Meet #4 Report - 27th July 2024</h2>
+<p style='color:white;'>This is a reflection of our fourth meet. The weather was quite muggy on this day of meet #4, as Alethila and Reality were hosting the meet on behalf of Aurora, we weren't sure how many people would be attending. We waited in Manchester Piccadilly station until 12:00, as no one turned up, we assumed people would be at The Moon Under Water pub so we began walking there. When we got there, we met up with Aquilla and Echo and talked about stuff ranging from community gossip to cameras. We ended up ending early due to everyone else leaving early.</p>
+<br>
+</center>
+</section>
+
 <section class="info2">
 <center>
 <h2 id="meet#3">Meet #3 Report - 22nd June 2024</h2>
-<p>First meet report on the site, this is a reflection of our third meet as we did not have a site on meet #1 and #2. This isn't to say that we can't add them at a later date if people remember. The weather was slightly cloudy on this day of meet #3, as two of our members could not make it on this meet, attendees were unsure of how many there would be there.</p>
+<p>This is a reflection of our third meet. The weather was slightly cloudy on this day of meet #3, as two of our members could not make it on this meet, attendees were unsure of how many there would be there.</p>
 <img src="img/IMG_9009.JPG" width="70%"/>
 <p>Aurora arrived at the pre-meet location at 12:00 due to them having to have their car serviced, this is later than what would usually happen at this meet. The pre-meet was a party of one due to people showing up late. Aurora started heading to the main meet point at 12:30 and met up with Aquilla then Juniper and Echo. We had some food there, we hung around until about 14:30 after the match started. Echo was talking about one bus in particular they were hunting and it was in the area, so once we had finished our drinks we took the meet on the road. First stop was Portland Street so Echo could photograph this special e400 in the old GMBuses colours. They managed to get the desired photo, which made them happy. We continued on to the Arndale to our usual bubble tea place.</p>
 <img src="img/IMG_20240622_152954.jpg" width="70%"/>

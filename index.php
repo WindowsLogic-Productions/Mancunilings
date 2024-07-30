@@ -105,15 +105,6 @@
 <br>
 </center>
 </section>
-<section class="info">
-<center>
-<h2 style='color:white;'>Meet Guide</h2>
-<p style='color:white;'>Not sure what to expect or want some more info?</p>
-<a href="meet-guide.php"><button class="buttoncenter button1">Read Our Meet Guide!</button></a>
-<br>
-<br>
-</center>
-</section>
           
             <footer>
             <?php
